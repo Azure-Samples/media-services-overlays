@@ -1,13 +1,5 @@
-## [project-title] Changelog
+## media-services-overlays Changelog
 
-<a name="x.y.z"></a>
-# x.y.z (yyyy-mm-dd)
+# 2020.7.27 (yyyy-mm-dd)
 
-*Features*
-* ...
-
-*Bug Fixes*
-* ...
-
-*Breaking Changes*
-* ...
+Uploaded sample.
