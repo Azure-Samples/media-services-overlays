@@ -1,57 +1,35 @@
-# Project Name
+# media-services-overlays
 
-(short, 1-3 sentenced, description of the project)
+This sample shows how to create a custom encoding overlay using the StandardEncoderPreset settings.
 
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
+| File | Description |
+| ---- | ----------- |
+| AMSLogo.png | The logo that is used for the overlay |
+| ConfigWrapper.cs | Uses the Media Services account settings |
+| Program.cs | .NET application code |
+| appsettings.json | Contains the app setting from you Media Services account |
+| ignite.mp4 | The video used in the sample |
+| media-services-v3-netcore.csproj | Contains item and property group metadata |
 
 ## Getting Started
 
-### Prerequisites
+1. Read [How to create an overlay with Media Encoder Standard](https://docs.microsoft.com).
+1. Download or clone this repository.
+1. Edit the settings in the *appsettings.json* file with your Azure account information:
 
-(ideally very short, if any)
+    ```json
+    {
+        "AadClientId": "",
+        "AadEndpoint": "https://login.microsoftonline.com",
+        "AadSecret": "",
+        "AadTenantId": "",
+        "AccountName": "",
+        "ArmAadAudience": "https://management.core.windows.net/",
+        "ArmEndpoint": "https://management.azure.com/",
+        "Region": "",
+        "ResourceGroup": "",
+        "SubscriptionId": ""
+    }
+    ```
 
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+1. Run the code.
