@@ -4,7 +4,7 @@ This sample shows how to create a custom encoding overlay using the StandardEnco
 
 | File | Description |
 | ---- | ----------- |
-| AMSLogo.png | The logo that is used for the overlay |
+| cloud.png | The image that is used for the overlay |
 | ConfigWrapper.cs | Uses the Media Services account settings to connect to Azure. |
 | Program.cs | .NET application code |
 | appsettings.json | Contains the settings from your Media Services account |
