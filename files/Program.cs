@@ -16,7 +16,7 @@ namespace OverlayVideos
     public class Program
     {
         const String inputMP4FileName = @"ignite.mp4";
-        const String overlayFileName = @"AMSLogo.png";
+        const String overlayFileName = @"cloud.png";
         const String outputFolder = @"Output";
         const String overlayLabel = @"logo";
         const String OverlayTransformName = "OverlayTransform";
